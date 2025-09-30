@@ -26,7 +26,7 @@ Didesain untuk mahasiswa & engineer dalam menghitung rumus fisika dasar seperti 
 
 ## 🖼️ Tampilan
 
-![Preview Kalku App](/preview.png)
+![Preview Kalku App](public/preview.png)
 *(contoh screenshot tampilan aplikasi)*
 
 ---
