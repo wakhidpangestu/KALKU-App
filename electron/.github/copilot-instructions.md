@@ -1,0 +1,8 @@
+- [x] Clarify Project Requirements: Convert entire GLBB Calculator web app to Electron desktop app, duplicate all features and UI, place in 'electron' folder.
+- [x] Scaffold the Project: Electron boilerplate, React renderer, folders for components, utils, assets, pages, hooks created.
+- [ ] Customize the Project: Copy all React code, utils, styles from web app into electron/src, integrate GLBB Calculator UI, ensure desktop features work.
+- [ ] Install Required Extensions: No extensions required for Electron/React setup.
+- [ ] Compile the Project: Install dependencies, run build/start, resolve any issues.
+- [ ] Create and Run Task: Add VS Code tasks if needed for build/start.
+- [ ] Launch the Project: Prompt user for debug/launch mode.
+- [ ] Ensure Documentation is Complete: README.md and copilot-instructions.md exist and are up to date.
