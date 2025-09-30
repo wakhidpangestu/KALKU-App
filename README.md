@@ -1,7 +1,13 @@
 # 📐 Kalku App
 
-**Kalku App** adalah aplikasi kalkulator teknik modern berbasis **Vite + React + TailwindCSS**, yang bisa dijalankan di **Web** maupun **Desktop** (Electron).
-Aplikasi ini dibuat untuk memudahkan mahasiswa/engineer dalam menghitung rumus-rumus fisika dasar, khususnya dalam bidang mekanika & termodinamika.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Made with Vite](https://img.shields.io/badge/Made%20with-Vite-646CFF.svg?logo=vite\&logoColor=white)](https://vitejs.dev/)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg?logo=react\&logoColor=black)](https://reactjs.org/)
+[![Made with Electron](https://img.shields.io/badge/Desktop-Electron-47848F.svg?logo=electron\&logoColor=white)](https://electron.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-06B6D4.svg?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/)
+
+**Kalku App** adalah aplikasi kalkulator teknik modern berbasis **Vite + React + TailwindCSS**, yang bisa dijalankan di **Web** maupun **Desktop (Electron)**.
+Didesain untuk mahasiswa & engineer dalam menghitung rumus fisika dasar seperti **GLBB, Gas Ideal, Kalor, Efisiensi Carnot, dan Diagram PV/TS**.
 
 ---
 
@@ -20,7 +26,7 @@ Aplikasi ini dibuat untuk memudahkan mahasiswa/engineer dalam menghitung rumus-r
 
 ## 🖼️ Tampilan
 
-![Preview Kalku App](assets/preview.png)
+![Preview Kalku App](/preview.png)
 *(contoh screenshot tampilan aplikasi)*
 
 ---
