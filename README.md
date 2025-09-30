@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# 📐 Kalku App
 
-## Project info
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Made with Vite](https://img.shields.io/badge/Made%20with-Vite-646CFF.svg?logo=vite\&logoColor=white)](https://vitejs.dev/)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB.svg?logo=react\&logoColor=black)](https://reactjs.org/)
+[![Made with Electron](https://img.shields.io/badge/Desktop-Electron-47848F.svg?logo=electron\&logoColor=white)](https://electron.dev/)
+[![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-06B6D4.svg?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/)
 
-**URL**: https://lovable.dev/projects/77a28463-52d4-4e45-8ff7-9128ceebfb46
+**Kalku App** adalah aplikasi kalkulator teknik modern berbasis **Vite + React + TailwindCSS**, yang bisa dijalankan di **Web** maupun **Desktop (Electron)**.
+Didesain untuk mahasiswa & engineer dalam menghitung rumus fisika dasar seperti **GLBB, Gas Ideal, Kalor, Efisiensi Carnot, dan Diagram PV/TS**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Fitur Utama
 
-**Use Lovable**
+* 🔹 **GLBB (Gerak Lurus Berubah Beraturan)** – menghitung kecepatan, percepatan, perpindahan.
+* 🔹 **Hukum Gas Ideal** – simulasi & perhitungan gas ideal.
+* 🔹 **Persamaan Kalor** – menghitung perubahan kalor & energi.
+* 🔹 **Efisiensi Carnot** – perhitungan efisiensi mesin Carnot.
+* 🔹 **Diagram PV/TS** – grafik & perhitungan termodinamika.
+* 🔹 **Dark Mode + Neon Blue Theme** – tampilan modern dan nyaman.
+* 🔹 **Responsive Design** – bisa diakses dari web, mobile, maupun desktop.
+* 🔹 **Ekspor Data** ke **CSV/XLSX** untuk keperluan laporan.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/77a28463-52d4-4e45-8ff7-9128ceebfb46) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🖼️ Tampilan
 
-**Use your preferred IDE**
+![Preview Kalku App](/preview.png)
+*(contoh screenshot tampilan aplikasi)*
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Instalasi & Penggunaan
 
-Follow these steps:
+### 1. Clone Repo
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+git clone https://github.com/wakhidpangestu/KALKU-App.git
+cd KALKU-App
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2. Install Dependencies
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Jalankan di Mode Dev (Web)
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### 4. Build Versi Web
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+Hasil build ada di folder `/dist`.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 💻 Versi Desktop (Electron)
 
-This project is built with:
+### 1. Jalankan dalam Mode Dev
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run start
+```
 
-## How can I deploy this project?
+### 2. Build jadi `.exe`
 
-Simply open [Lovable](https://lovable.dev/projects/77a28463-52d4-4e45-8ff7-9128ceebfb46) and click on Share -> Publish.
+```bash
+npm run build:electron
+```
 
-## Can I connect a custom domain to my Lovable project?
+Installer `.exe` akan muncul di folder:
 
-Yes, you can!
+```
+/dist_electron/
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 📂 Struktur Project
+
+```
+KALKU-App/
+├── electron/          # Main process Electron
+├── src/               # Source React (frontend)
+├── assets/            # Ikon & aset aplikasi
+├── dist/              # Build hasil Vite
+├── dist_electron/     # Build hasil Electron (exe)
+└── package.json
+```
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+* ⚡ **Vite** – Frontend bundler super cepat.
+* ⚛️ **React + TypeScript** – Library frontend modern.
+* 🎨 **TailwindCSS** – Styling cepat dan fleksibel.
+* 🖥️ **Electron** – Build desktop app (Windows/Mac/Linux).
+* 📊 **XLSX** – Ekspor data ke Excel.
+
+---
+
+## 👨‍💻 Kontributor
+
+* **Wakhid Pangestu** – [@wakhidpangestu](https://github.com/wakhidpangestu)
+* **Semesta Labs** – [@semestalabs.id](https://instagram.com/semestalabs.id)
+
+---
+
+## 📜 Lisensi
+
+MIT License © 2025 [Semesta Labs](https://instagram.com/semestalabs.id)
